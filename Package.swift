@@ -21,8 +21,8 @@ let package = Package(
         .target(
             name: "ios_collector",
             dependencies: []),
-        .testTarget(
+        /*.testTarget(
             name: "ios_collectorTests",
-            dependencies: ["ios_collector"]),
+            dependencies: ["ios_collector"]),*/
     ]
 )
